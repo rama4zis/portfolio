@@ -1,7 +1,7 @@
 <div
-  class="h-screen min-w-full mx-auto py-12 flex justify-center text-gray-300"
+  class="min-h-screen min-w-full mx-auto py-12 px-4 flex justify-center text-gray-300"
 >
-  <div class="bg-gray-700 p-4 rounded-4xl">
+  <div class="bg-gray-700 px-4 py-8 rounded-4xl h-auto">
     <!-- Navigation -->
     <!-- <div class="flex justify-center">
       <a
@@ -28,19 +28,138 @@
     </div> -->
 
     <!-- Profile -->
-     <div class="rounded-full w-24 h-24 overflow-hidden my-2">
-      <img class="w-full h-full object-cover" src="/images/profile.gif" alt="Profile picture" aria-hidden="true" />
-     </div>
-     
-     <h1 class="text-5xl font-bold">
-      Hello, I'am Rama.
-      <br />
-      A full-stack developer.
-    </h1>
-     
+    <div class="flex flex-col gap-3">
+      <div class="rounded-full w-24 h-24 overflow-hidden my-2">
+        <img
+          class="w-full h-full object-cover"
+          src="/images/profile.gif"
+          alt="Profile picture"
+          aria-hidden="true"
+        />
+      </div>
 
+      <h1 class="text-3xl font-bold">
+        Hello, I'am Rama.
+        <br />
+        A full-stack developer.
+      </h1>
+      <p>
+        Most designers can't code. Most developers can't design. I do both. 3
+        years turning ideas into profitable products.
+      </p>
+      <div class="flex">
+        <button
+          class="bg-gray-800 hover:bg-gray-600 text-white py-2 px-4 rounded-2xl w-[60%] h-[50px] transition duration-300 ease-in-out"
+        >
+          <a href="http://github.com/rama4zis" target="_blank">Hire me</a>
+        </button>
+      </div>
+    </div>
 
+    <!-- About -->
+    <section class="mt-8">
+      <h2 class="text-xl font-bold mb-4">About</h2>
+      <p class="text-base font-normal">
+        Developed a cutting-edge AI-powered financial document analysis system
+        using SvelteKit, Supabase, and Tailwind CSS, revolutionizing financial
+        data extraction with 95% accuracy while delivering an intuitive user
+        experience for complex operations.", "Implemented a dynamic multilingual
+        project management marketing page with SvelteKit and Tailwind CSS,
+        implementing a headless WordPress CMS architecture with full i18n
+        support that boosted client engagement by 30% across international
+        markets.", "Built an AI-powered family heritage SaaS platform with
+        SvelteKit frontend (interactive family trees, data vault, knowledge
+        center, Stripe billing) and FastAPI backend featuring immersive AI video
+        calls via Daily WebRTC, Cartesia TTS, Groq Whisper, AI avatar generation
+        (Simli/Tavus), and PostgreSQL database for personalized family assistant
+        experiences."
+      </p>
+    </section>
 
-    <h1 class="text-3xl font-bold">Hello world!</h1>
+    <hr class="my-8 border-gray-600" />
+
+    <section>
+      <h2 class="text-xl font-bold mb-4">Work Experience</h2>
+
+      <div class="flex flex-col gap-2 mb-6">
+        <span class="text-sm font-medium text-gray-400"
+          >Nov 2024 - May 2025</span
+        >
+        <div class="flex items-center gap-2">
+          <span class="text-base font-medium">Java Developer</span>
+          at
+          <button
+            class="bg-purple-600 hover:bg-purple-500 text-white py-1 px-2 rounded-lg transition duration-300 ease-in-out"
+          >
+            <a
+              class="flex items-center gap-2"
+              href="https://www.instagram.com/xsisacademy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-instagram-icon lucide-instagram"
+                ><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg
+              >
+              XSIS
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-2">
+        <span class="text-sm font-medium text-gray-400"
+          >Nov 2024 - May 2025</span
+        >
+        <div class="flex items-center gap-2">
+          <span class="text-base font-medium">IT Support</span>
+          at
+          <button
+            class="bg-blue-600 hover:bg-blue-500 text-white py-1 px-2 rounded-lg transition duration-300 ease-in-out"
+          >
+            <a
+              class="flex items-center gap-2"
+              href="https://www.linkedin.com/company/prima-print/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-linkedin-icon lucide-linkedin"
+                ><path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                /><rect width="4" height="12" x="2" y="9" /><circle
+                  cx="4"
+                  cy="4"
+                  r="2"
+                /></svg
+              >
+              Prima Print
+            </a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- <h1 class="text-3xl font-bold">Hello world!</h1> -->
   </div>
 </div>
