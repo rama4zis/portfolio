@@ -120,7 +120,7 @@
 
       <div class="flex flex-col gap-2">
         <span class="text-sm font-medium text-gray-400"
-          >Nov 2024 - May 2025</span
+          >Oct 2023 - Jan 2024</span
         >
         <div class="flex items-center gap-2">
           <span class="text-base font-medium">IT Support</span>
@@ -156,6 +156,47 @@
               Prima Print
             </a>
           </button>
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-8 border-gray-600" />
+
+    <section>
+      <h2 class="text-xl font-bold mb-4">Projects</h2>
+      <div class="grid grid-cols-1 gap-6">
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <h3 class="text-lg font-semibold">HR Management</h3>
+          <p class="text-sm text-gray-400">
+            Developed a HR management to manage employees, attendance, and
+            payroll using Spring Boot, NextJS, Supabase, and Tailwind CSS.
+          </p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <h3 class="text-lg font-semibold">Subsidi Tepat LPG Automation</h3>
+          <p class="text-sm text-gray-400">
+            A web-based automation tool for processing NIK numbers with
+            real-time progress tracking and Excel report generation.
+          </p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <h3 class="text-lg font-semibold">Rock, Paper, Scissors Game</h3>
+          <p class="text-sm text-gray-400">
+            A real-time multiplayer Rock Paper Scissors game built with Node.js,
+            Express, and Socket.IO. Challenge your friends or other players in
+            classic duels!
+          </p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <h3 class="text-lg font-semibold">Arisu Chatbot</h3>
+          <p class="text-sm text-gray-400">
+            A WhatsApp bot integrated with OpenAI GPT-3 to provide relevant
+            answers to questions. It also includes a menu to make it easier for
+            users to use the bot.
+          </p>
         </div>
       </div>
     </section>
